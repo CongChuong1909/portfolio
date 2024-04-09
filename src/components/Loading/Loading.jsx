@@ -3,8 +3,8 @@ import './Loading.scss'
 import { preLoaderAnim } from './Animation';
 
 function Loading(props) {
-    useEffect(()=>{
-        preLoaderAnim();
+    useEffect(()=>{ 
+        preLoaderAnim(); 
     },[])
     return (
         <div className='preloader'>
