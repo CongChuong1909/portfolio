@@ -9,9 +9,9 @@ function Loading(props) {
     return (
         <div className='preloader'>
             <div className="texts-container">
-                <span>Developer,</span>
-                <span>Developer,</span>
-                <span>Developer,</span>
+                <span>Code,</span>
+                <span>Build,</span>
+                <span>Innovate</span>
             </div>
         </div>
     );
