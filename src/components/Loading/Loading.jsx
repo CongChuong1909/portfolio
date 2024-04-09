@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './Loading.scss'
-import { preLoaderAnim } from './Animation.js';
+import { preLoaderAnim } from './Animation';
 
 function Loading(props) {
     useEffect(()=>{ 
