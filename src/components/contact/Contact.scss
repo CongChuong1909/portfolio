@@ -1,0 +1,88 @@
+@import '../../app.scss';
+.contact{
+    height: 100%;
+    .wrapper{
+        max-width: 1266px;
+        margin: auto;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        gap: 50px;
+        @include mobile{
+            width: 100%;
+            padding: 10px;
+            flex-direction: column;
+        }
+    }
+    .text-container{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        @include mobile{
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+            margin-top: 70px;
+        }
+        h1{
+            font-size: 100px;
+            line-height: 88px;
+            @include mobile{
+                font-size: 40px;
+            }
+        }
+        span{
+            font-weight: 300;
+        }
+    }
+    .form-container{
+        flex: 1;
+        // background: #000;
+        @include mobile{
+            width: 100%;
+            padding: 50px;
+        }
+        .phone-svg{
+           z-index: -1;
+            position: absolute;
+            margin: auto;
+            // svg{
+                 stroke: orange;
+            // }
+            @include mobile{
+                svg{
+                  width: 200px !important;
+                  height: 200px !important;  
+                }
+                
+                padding: 50px;
+            }
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            input, textarea {
+                padding: 20px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                border-radius: 5px;
+                @include mobile{
+                    padding: 10px;
+                }
+            }
+            button{
+                border: none;
+                cursor: pointer;
+                background-color: orange;
+                font-weight: 500;
+                padding: 20px;
+                border-radius: 5px;
+                font-size: 16px;
+                width: 100%;
+            }
+        }
+    }
+}
