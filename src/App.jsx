@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./app.scss";
-import Cursor from "./components/Cursor/Cursor";
+import Cursor from "./components/cursor/Cursor";
 import Contact from "./components/contact/Contact";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
