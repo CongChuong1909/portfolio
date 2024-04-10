@@ -82,7 +82,7 @@ function Contact(props) {
                                 />
                             </svg>
                         </motion.div>
-                        <motion.form onSubmit={sendEmail} ref={formRef} initial={{opacity:0}} whileInView={{opacity: 1 }} transition={{delay: 3,duration: 0.5}}>
+                        <motion.form onSubmit={sendEmail} ref={formRef} initial={{opacity:0}} whileInView={{opacity: 1 }} transition={{delay: 2.7,duration: 0.5}}>
                             <input type="text" required placeholder='Name' name='name' />
                             <input type="text" required placeholder='Email' name='email'/>
                             <textarea rows="8" name='message'/>
